@@ -8,5 +8,5 @@ Use buffered input and output streams in the follow tasks when possible.
     
 Hints:
   1. Look at CheckedOutputStream, CheckedInputStream
-  2. For the checksum variable use new Aler32() or new CRC32() in the constructor of the checked streams
+  2. For the checksum variable, use new Adler32() or new CRC32() in the constructor of the checked streams
   3. You need to flush the written output stream before you can access its checksum
