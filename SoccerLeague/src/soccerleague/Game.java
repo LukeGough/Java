@@ -1,8 +1,3 @@
-/*  
-    Class: Cluster - Java II
-    Name: Luke Gough
-    Student ID: 30003918
- */
 package soccerleague;
 
 public class Game {
