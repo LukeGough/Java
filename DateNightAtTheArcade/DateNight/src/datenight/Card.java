@@ -1,8 +1,3 @@
-/*  
-    Class: Cluster - Java I
-    Name: Luke Gough
-    Student ID: 30003918
- */
 package datenight;
 
 public class Card {
