@@ -1,6 +1,4 @@
-Date Night at the Arcade
-
-Overview
+### Overview
 Tonight is date night at the arcade. After great
 evening of playing games and winning prizes, you
 and your date can’t help wondering “How are these
@@ -18,7 +16,7 @@ also stored on a card’s magnetic strip. Tickets may be exchanged for prizes at
 terminal is also used to check a card’s credit balance and ticket count, and to transfer credits or tickets
 between cards.
 
-Tasks
+#### Tasks
 Write a Java program that models the properties, behaviours, and interactions of objects at the arcade.
 You’ll also need a test class that contains a main method. Use the main method to model actions that
 would drive the program such as object instantiations and card swipes. All fields must be private.
@@ -32,7 +30,7 @@ Every card is created with a unique integer identification number. Although each
 incapable of simple addition, it’s still possible to perform calculations with properties that belong to all
 cards.
 
-Games
+#### Games
 Games require a certain number of credits to be played. Each game is equipped with a magnetic card
 reader and LCD display. Swiping a card reduces its credit balance, but awards a random, non-negative
 number of tickets. Print the card number, number of tickets won, along with the new total. Print a
@@ -46,7 +44,7 @@ Each prize category has a name, number of tickets required to earn that prize, a
 many items of this category remain in a terminal. Prizes know nothing about the terminal they belong
 to.
 
-Terminals
+#### Terminals
 Each terminal contains a magnetic card reader. A terminal accepts money which is converted to credits
 on a card. Money is accepted as whole numbers. Credits are awarded at a rate of 2 credits for every
 $1. Players may use a Terminal to check their card’s balances. Include the card’s number in this
@@ -56,11 +54,11 @@ exchanged at terminals for prizes. Print an error message if a card has insuffic
 terminal is out of a particular prize type. Print when a prize is awarded and the remaining number of
 that prize type in the terminal. A terminal offers 3 categories of prizes.
 
-Main Method
+#### Main Method
 Instantiate 2 cards and whatever other objects might be necessary to test your program.
-  o Load credits onto each card.
-  o Play a bunch of game using both cards.
-  o Transfer the balance of credits and tickets from Card 1 to Card 2.
-  o Request prizes using Card 2.
-  o Try to play a game and request a prize using Card 1.
-  o Perform whatever other actions might be necessary to test your program.
+  * Load credits onto each card.
+  * Play a bunch of game using both cards.
+  * Transfer the balance of credits and tickets from Card 1 to Card 2.
+  * Request prizes using Card 2.
+  * Try to play a game and request a prize using Card 1.
+  * Perform whatever other actions might be necessary to test your program.
